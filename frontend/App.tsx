@@ -17,30 +17,32 @@ import * as counter from "../.dfx/local/canisters/counter"
 import { Counter } from "./components/Counter"
 import { Transfer } from "./components/Transfer"
 import { Profile } from "./components/Profile"
+import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
     <div className="App">
       <div className="auth-section">
-        <ConnectButton />
+        {/* <ConnectButton /> */}
       </div>
-      <ConnectDialog />
+      {/* <ConnectDialog /> */}
 
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="slogan">
-          React+TypeScript Template
+          React+TypeScript Templat
         </p>
         <p className="twitter">by <a href="https://twitter.com/miamaruq">@miamaruq</a></p>
-      </header>
+      </header> */}
 
-      <p className="examples-title">
+      {/* <p className="examples-title">
         Examples
-      </p>
+      </p> */}
       <div className="examples">
-        <Counter />
+        {/* <Counter />
         <Profile />
-        <Transfer />
+        <Transfer /> */}
+        <LandingPage/>
       </div>
     </div>
   )
