@@ -22,18 +22,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Counter } from "./components/Counter"
 import { Transfer } from "./components/Transfer"
 import { Profile } from "./components/Profile"
-import LandingPage from "./components/LandingPage"
+import LandingPage from "./components/Hero"
 import { Button } from "./components/ui/button"
+import RootPage from "./pages/RootPage"
+import ProjectPage from "./pages/ProjectPage"
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<>Hi</>} />
-          <Route path="/counter" element={<>Hello</>} />
-          <Route path="/transfer" element={<>Bye</>} />
-          <Route path="/profile" element={<>Test</>} />
+          <Route path="/" element={<RootPage/>} />
+          <Route path="/project" element={<ProjectPage/>} />
         </Routes>
       </div>
     </BrowserRouter>
