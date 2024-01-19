@@ -68,6 +68,7 @@ export default defineConfig({
   plugins: [reactRefresh()],
   resolve: {
     alias: {
+      "@": path.resolve(__dirname, "./frontend"),
       // Here we tell Vite the "fake" modules that we want to define
       ...aliases,
     },
