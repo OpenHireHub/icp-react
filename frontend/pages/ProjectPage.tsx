@@ -1,14 +1,11 @@
 import React from "react"
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid"
 import icpImage from "../components/image/icp-illustration.jpg"
 import { Button } from "@/components/ui/button"
 import { useNavigate } from "react-router-dom"
+import useScrollToTop from "@/hooks/useScrollToTop"
 
 export default function ProjectPage() {
+  useScrollToTop()
   const navigate = useNavigate()
 
   const handleBack = () => {
