@@ -68,7 +68,7 @@ const Pricing = () => {
             variant="secondary"
             className="flex py-8 rounded-2xl space-x-3 items-center justify-center hover:bg-clr-yellow"
             onClick={() =>
-              onClickButtonHandler("https://github.com/OpenHireHub")
+              onClickButtonHandler("https://github.com/OpenHireHub/icp-react")
             }
           >
             <img src={imageIconGithub} alt="" className="w-6" />

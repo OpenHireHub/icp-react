@@ -30,7 +30,7 @@ const RootPage = () => {
 
           {/* social icons */}
           <div className="flex space-x-5 items-center">
-            <Link to="https://github.com/OpenHireHub">
+            <Link to="https://github.com/OpenHireHub/icp-react">
               <img
                 width={40}
                 height={20}
