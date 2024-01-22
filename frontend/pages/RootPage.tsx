@@ -21,7 +21,7 @@ const RootPage = () => {
             <img src={imageLogo} alt="logo" className="w-44" />
             <p className="text-sm text-clr-black leading-7 max-w-sm">
               All rights reserved © openhirehub 2024 Have any problems? Contact us
-              via social media or email us at{" "}
+              via email at{" "}
               <Link to="mailto:openhirehub@gmail.com" className="font-bold">
                 openhirehub@gmail.com
               </Link>
