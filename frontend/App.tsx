@@ -19,7 +19,6 @@ import * as counter from "../.dfx/local/canisters/counter"
  * Some examples to get you started
  */
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Counter } from "./components/Counter"
 import { Transfer } from "./components/Transfer"
 import { Profile } from "./components/Profile"
 import LandingPage from "./components/Hero"
